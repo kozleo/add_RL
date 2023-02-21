@@ -99,3 +99,11 @@ RuntimeError: Cannot enter into task <Task pending name='Task-60' coro=<HTTP1Ser
 [I 17:54:21.961 NotebookApp] Saving file at /notebooks/test_nb.ipynb
 [W 17:54:21.962 NotebookApp] Notebook notebooks/test_nb.ipynb is not trusted
 [I 17:54:28.993 NotebookApp] Kernel interrupted: 9f6bf427-110f-4f5e-aa38-abb1e3ce7f0d
+[I 17:56:22.057 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[W 17:56:22.058 NotebookApp] Notebook notebooks/test_nb.ipynb is not trusted
+[I 17:56:39.055 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[W 17:56:39.056 NotebookApp] Notebook notebooks/test_nb.ipynb is not trusted
+[I 17:56:39.953 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[W 17:56:39.954 NotebookApp] Notebook notebooks/test_nb.ipynb is not trusted
+[I 17:56:43.614 NotebookApp] Starting buffering for 9f6bf427-110f-4f5e-aa38-abb1e3ce7f0d:baf125f378714d22a6a2aef14968888a
+slurmstepd: error: *** JOB 29471932 ON node090 CANCELLED AT 2023-02-21T17:57:49 ***
