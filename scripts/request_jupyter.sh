@@ -12,7 +12,6 @@
 #SBATCH --gres=gpu:1
 #SBATCH --time=0-12:00:00
 
-cd /om2/user/leokoz8/code/boa_rnn
+cd /om2/user/leokoz8/code/add_RL
 unset XDG_RUNTIME_DIR
-#conda activate boa_rnn
 jupyter notebook --ip=0.0.0.0 --port=9000 --no-browser --NotebookApp.token='' --NotebookApp.password=''

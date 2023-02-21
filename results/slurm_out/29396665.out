@@ -1,0 +1,143 @@
+[I 15:35:11.715 NotebookApp] [nb_conda_kernels] enabled, 12 kernels found
+[I 15:35:12.153 NotebookApp] Authentication of /metrics is OFF, since other authentication is disabled.
+[W 15:35:15.564 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[W 2023-02-13 15:35:20.291 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-02-13 15:35:20.297 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-13 15:35:20.297 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-13 15:35:20.297 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-13 15:35:20.297 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-13 15:35:20.297 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-13 15:35:20.297 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-13 15:35:20.299 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-02-13 15:35:20.310 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[I 2023-02-13 15:35:20.312 LabApp] JupyterLab extension loaded from /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/jupyterlab
+[I 2023-02-13 15:35:20.312 LabApp] JupyterLab application directory is /om/user/leokoz8/envs/add_RL/share/jupyter/lab
+[I 15:35:20.320 NotebookApp] Serving notebooks from local directory: /rdma/vast-rdma/vast/fiete/leokoz8/code/add_RL
+[I 15:35:20.320 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 15:35:20.320 NotebookApp] http://node033:9000/
+[I 15:35:20.320 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:46:02.572 NotebookApp] 302 GET / (172.16.24.254) 0.930000ms
+/om/user/leokoz8/envs/add_RL/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 15:46:39.280 NotebookApp] 400 GET /api/contents/notebooks/test_nb.ipynb?type=notebook&_=1676321199457 (172.16.24.254): Unreadable Notebook: /rdma/vast-rdma/vast/fiete/leokoz8/code/add_RL/notebooks/test_nb.ipynb NotJSONError("Notebook does not appear to be JSON: ''...")
+[W 15:46:39.282 NotebookApp] Unreadable Notebook: /rdma/vast-rdma/vast/fiete/leokoz8/code/add_RL/notebooks/test_nb.ipynb NotJSONError("Notebook does not appear to be JSON: ''...")
+[W 15:46:39.283 NotebookApp] 400 GET /api/contents/notebooks/test_nb.ipynb?type=notebook&_=1676321199457 (172.16.24.254) 6.810000ms referer=http://localhost:9000/notebooks/notebooks/test_nb.ipynb
+[W 15:46:48.771 NotebookApp] delete /notebooks/test_nb.ipynb
+[W 15:46:48.868 NotebookApp] Skipping trash for /rdma/vast-rdma/vast/fiete/leokoz8/code/add_RL/notebooks/test_nb.ipynb, [Errno 13] Permission denied: b'/rdma/vast-rdma/.Trash-154864'
+[I 15:46:52.829 NotebookApp] Creating new notebook in /notebooks
+Exception in callback <TaskWakeupMethWrapper object at 0x2b9eba7de220>(<Future finis...late\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x2b9eba7de220>(<Future finis...late\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/om/user/leokoz8/envs/add_RL/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1ServerConnection._server_request_loop() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/http1connection.py:825> wait_for=<Future finished result=b'GET /api/co...flate\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:687]> while another task <Task pending name='Task-74' coro=<MappingKernelManager.start_kernel() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:687]> is being executed.
+[I 15:46:55.279 NotebookApp] Kernel started: 4d6f54d0-6968-41f9-941c-4a408ba9f76f, name: conda-env-leokoz8-add_RL-py
+/om/user/leokoz8/envs/add_RL/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 15:48:55.315 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 15:50:55.304 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 15:56:55.310 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 15:58:55.312 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:02:54.571 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:04:54.590 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:06:55.328 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:10:54.565 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:11:38.123 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:12:55.329 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:14:16.720 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:14:22.248 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:14:54.569 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:15:05.473 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:15:08.474 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:16:54.585 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:26:55.344 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:28:54.577 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:30:54.586 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:32:54.579 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:34:24.526 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:34:54.579 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:36:54.587 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:38:17.594 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:38:47.231 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:38:54.635 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:39:38.007 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:40:54.635 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:41:40.985 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:41:44.386 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:42:54.629 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:46:54.655 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:48:54.608 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:50:54.613 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:52:18.267 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:52:41.157 NotebookApp] Starting buffering for 4d6f54d0-6968-41f9-941c-4a408ba9f76f:aadd6b4e85be42e98293cb4707e6285a
+[I 16:52:44.118 NotebookApp] Kernel restarted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:52:44.156 NotebookApp] Restoring connection for 4d6f54d0-6968-41f9-941c-4a408ba9f76f:aadd6b4e85be42e98293cb4707e6285a
+[W 16:52:48.666 NotebookApp] Nudge: attempt 10 on kernel 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 16:52:50.986 NotebookApp] Replaying 3 buffered messages
+[I 16:52:54.604 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:54:55.363 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:56:54.654 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:58:54.636 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 16:59:04.602 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:00:55.386 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:02:05.787 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:02:55.382 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:06:55.382 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:08:54.639 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:09:08.954 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:10:20.904 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:10:54.635 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:11:26.155 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:11:51.439 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:12:55.426 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:14:39.435 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:14:54.607 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:16:09.883 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 17:16:54.647 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:18:54.626 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:20:54.757 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:22:55.484 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:24:54.759 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:26:55.411 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:28:54.717 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:30:18.696 NotebookApp] Kernel interrupted: 4d6f54d0-6968-41f9-941c-4a408ba9f76f
+[I 17:30:54.732 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:32:54.653 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:33:11.550 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:34:54.685 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:35:48.741 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:35:56.156 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:36:54.655 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:38:12.007 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:38:54.656 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:40:54.636 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:42:54.694 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:44:54.687 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:46:54.652 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:48:54.646 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:50:54.648 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:52:54.641 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:54:54.667 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:56:54.779 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 17:58:56.754 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:00:54.705 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:02:54.997 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:04:55.092 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:06:55.419 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:08:55.412 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:10:54.661 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:12:55.416 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:13:57.519 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:14:55.402 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:16:55.447 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:18:55.429 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:20:55.421 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:26:54.678 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:28:55.690 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:30:54.714 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:40:54.742 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:42:54.717 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:48:54.749 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 18:50:54.705 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[I 19:00:03.295 NotebookApp] Starting buffering for 4d6f54d0-6968-41f9-941c-4a408ba9f76f:aadd6b4e85be42e98293cb4707e6285a
+slurmstepd: error: *** JOB 29396665 ON node033 CANCELLED AT 2023-02-14T03:34:51 DUE TO TIME LIMIT ***
