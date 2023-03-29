@@ -1,0 +1,85 @@
+[I 12:35:58.767 NotebookApp] [nb_conda_kernels] enabled, 12 kernels found
+[I 12:35:59.602 NotebookApp] Authentication of /metrics is OFF, since other authentication is disabled.
+[W 12:36:05.129 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[W 2023-02-23 12:36:13.035 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-02-23 12:36:13.062 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-23 12:36:13.063 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-23 12:36:13.063 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-23 12:36:13.063 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-23 12:36:13.063 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-23 12:36:13.063 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-23 12:36:13.091 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-02-23 12:36:13.192 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[I 2023-02-23 12:36:13.287 LabApp] JupyterLab extension loaded from /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/jupyterlab
+[I 2023-02-23 12:36:13.288 LabApp] JupyterLab application directory is /om/user/leokoz8/envs/add_RL/share/jupyter/lab
+[I 12:36:13.339 NotebookApp] Serving notebooks from local directory: /rdma/vast-rdma/vast/fiete/leokoz8/code/add_RL
+[I 12:36:13.340 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 12:36:13.340 NotebookApp] http://node059:9000/
+[I 12:36:13.340 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 12:38:05.601 NotebookApp] 302 GET / (172.16.24.254) 126.610000ms
+/om/user/leokoz8/envs/add_RL/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 12:38:53.827 NotebookApp] Notebook notebooks/test_nb.ipynb is not trusted
+Exception in callback <TaskStepMethWrapper object at 0x2b331c7e84f0>()
+handle: <Handle <TaskStepMethWrapper object at 0x2b331c7e84f0>()>
+Traceback (most recent call last):
+  File "/om/user/leokoz8/envs/add_RL/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-39' coro=<RequestHandler._execute() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/web.py:1665> cb=[_HandlerDelegate.execute.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/web.py:2361]> while another task <Task pending name='Task-38' coro=<MappingKernelManager.start_kernel() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:687]> is being executed.
+Exception in callback <TaskWakeupMethWrapper object at 0x2b331c081b20>(<Future finis...late\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x2b331c081b20>(<Future finis...late\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/om/user/leokoz8/envs/add_RL/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-1' coro=<HTTP1ServerConnection._server_request_loop() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/http1connection.py:825> wait_for=<Future finished result=b'GET /static...flate\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:687]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/jupyter_client/manager.py:71>> is being executed.
+Exception in callback <TaskWakeupMethWrapper object at 0x2b331c0983d0>(<Future finis...late\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x2b331c0983d0>(<Future finis...late\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/om/user/leokoz8/envs/add_RL/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-10' coro=<HTTP1ServerConnection._server_request_loop() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/http1connection.py:825> wait_for=<Future finished result=b'GET /static...flate\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:687]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/jupyter_client/manager.py:71>> is being executed.
+/om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/zmq/sugar/attrsettr.py:24: RuntimeWarning: coroutine 'RequestHandler._execute' was never awaited
+  if key in cls.__dict__ or key in getattr(cls, "__annotations__", {}):
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Task was destroyed but it is pending!
+task: <Task pending name='Task-39' coro=<RequestHandler._execute() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/web.py:1665> cb=[_HandlerDelegate.execute.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/web.py:2361]>
+[I 12:38:55.347 NotebookApp] Kernel started: d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d, name: conda-env-leokoz8-add_RL-py
+[W 12:39:55.628 NotebookApp] Timeout waiting for kernel_info reply from d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:00.438 NotebookApp] Nudge: attempt 10 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:05.668 NotebookApp] Nudge: attempt 20 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:10.959 NotebookApp] Nudge: attempt 30 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:16.251 NotebookApp] Nudge: attempt 40 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:21.482 NotebookApp] Nudge: attempt 50 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:26.731 NotebookApp] Nudge: attempt 60 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:32.055 NotebookApp] Nudge: attempt 70 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:37.291 NotebookApp] Nudge: attempt 80 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:42.632 NotebookApp] Nudge: attempt 90 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:47.892 NotebookApp] Nudge: attempt 100 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+[W 12:40:53.302 NotebookApp] Nudge: attempt 110 on kernel d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d
+/om/user/leokoz8/envs/add_RL/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[E 12:40:55.762 NotebookApp] Uncaught exception GET /api/kernels/d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d/channels?session_id=a06e601e19ad4fdf8c9f79ecd17ccb9b (172.16.24.254)
+    HTTPServerRequest(protocol='http', host='localhost:9000', method='GET', uri='/api/kernels/d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d/channels?session_id=a06e601e19ad4fdf8c9f79ecd17ccb9b', version='HTTP/1.1', remote_ip='172.16.24.254')
+    Traceback (most recent call last):
+      File "/om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/websocket.py", line 944, in _accept_connection
+        await open_result
+      File "/om/user/leokoz8/envs/add_RL/lib/python3.8/asyncio/tasks.py", line 349, in __wakeup
+        future.result()
+    asyncio.exceptions.TimeoutError: Timeout
+[I 12:40:57.680 NotebookApp] Saving file at /notebooks/test_nb.ipynb
+[W 12:40:57.686 NotebookApp] Notebook notebooks/test_nb.ipynb is not trusted
+[W 12:40:57.964 NotebookApp] Replacing stale connection: d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d:a06e601e19ad4fdf8c9f79ecd17ccb9b
+[I 12:41:31.894 NotebookApp] Starting buffering for d5b38a2d-9eba-4882-b47c-cde8aa0f6c3d:a06e601e19ad4fdf8c9f79ecd17ccb9b
+Exception in callback <TaskWakeupMethWrapper object at 0x2b331c53a520>(<Future finis...m is closed')>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x2b331c53a520>(<Future finis...m is closed')>)>
+Traceback (most recent call last):
+  File "/om/user/leokoz8/envs/add_RL/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-2' coro=<HTTP1ServerConnection._server_request_loop() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/http1connection.py:825> wait_for=<Future finished exception=StreamClosedError('Stream is closed')> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:687]> while another task <Task pending name='Task-131' coro=<PeriodicCallback._run() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:921> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:694]> is being executed.
+Exception in callback <TaskWakeupMethWrapper object at 0x2b331c038280>(<Future finis...m is closed')>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x2b331c038280>(<Future finis...m is closed')>)>
+Traceback (most recent call last):
+  File "/om/user/leokoz8/envs/add_RL/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-11' coro=<HTTP1ServerConnection._server_request_loop() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/http1connection.py:825> wait_for=<Future finished exception=StreamClosedError('Stream is closed')> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:687]> while another task <Task pending name='Task-131' coro=<PeriodicCallback._run() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:921> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:694]> is being executed.
+slurmstepd: error: *** JOB 29504743 ON node059 CANCELLED AT 2023-02-23T12:43:26 ***

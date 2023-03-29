@@ -1,0 +1,133 @@
+[I 10:12:36.290 NotebookApp] [nb_conda_kernels] enabled, 12 kernels found
+[I 10:12:36.870 NotebookApp] Authentication of /metrics is OFF, since other authentication is disabled.
+[W 10:12:41.133 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[W 2023-03-22 10:12:45.962 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-03-22 10:12:45.978 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-22 10:12:45.978 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-22 10:12:45.978 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-22 10:12:45.978 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-22 10:12:45.978 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-22 10:12:45.978 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-22 10:12:45.979 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-03-22 10:12:45.989 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[I 2023-03-22 10:12:45.991 LabApp] JupyterLab extension loaded from /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/jupyterlab
+[I 2023-03-22 10:12:45.991 LabApp] JupyterLab application directory is /om/user/leokoz8/envs/add_RL/share/jupyter/lab
+[I 10:12:45.998 NotebookApp] Serving notebooks from local directory: /rdma/vast-rdma/vast/fiete/leokoz8/code/add_RL
+[I 10:12:45.998 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 10:12:45.998 NotebookApp] http://node076:9000/
+[I 10:12:45.998 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 12:23:57.065 NotebookApp] 302 GET / (172.16.24.254) 65.270000ms
+/om/user/leokoz8/envs/add_RL/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 12:24:22.845 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 12:24:23.562 NotebookApp] Kernel started: e540fef2-128f-44a1-980b-2fa4f70d167b, name: conda-env-leokoz8-add_RL-py
+/om/user/leokoz8/envs/add_RL/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 12:26:23.679 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 12:26:23.681 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 12:28:23.139 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:30:23.217 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:32:23.175 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:34:23.168 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:36:23.173 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:38:23.165 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:40:23.339 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:42:23.681 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:44:23.777 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:46:23.495 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:48:23.295 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:50:23.326 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:52:23.879 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:54:21.676 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:56:23.373 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 12:58:23.462 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:00:23.947 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:02:23.475 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:06:23.478 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:08:23.513 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:10:24.388 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:12:24.065 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:16:23.502 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:17:57.263 NotebookApp] Kernel interrupted: e540fef2-128f-44a1-980b-2fa4f70d167b
+[I 13:18:23.540 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:20:23.500 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:22:24.047 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:24:24.785 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:30:23.667 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:36:23.595 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:38:24.054 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:42:23.606 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:44:23.541 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:46:23.540 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:48:11.462 NotebookApp] Kernel interrupted: e540fef2-128f-44a1-980b-2fa4f70d167b
+[I 13:48:24.039 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:52:24.086 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 13:58:24.094 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:00:24.046 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:02:23.828 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:06:24.119 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:08:24.084 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:14:23.577 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:16:23.541 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:18:23.572 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:20:24.104 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:32:24.455 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:34:23.565 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:36:23.566 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:38:24.053 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:40:24.105 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:42:24.065 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:48:23.544 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:50:23.550 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:52:15.637 NotebookApp] Kernel interrupted: e540fef2-128f-44a1-980b-2fa4f70d167b
+[I 14:52:23.579 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:54:23.523 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 14:56:24.078 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 15:00:23.598 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 15:02:24.058 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 15:12:24.101 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 15:14:23.540 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 15:16:24.864 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 15:22:23.589 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 16:26:24.248 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 16:30:24.116 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:04:23.569 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:06:24.217 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:16:51.251 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:18:23.693 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:18:43.893 NotebookApp] Kernel interrupted: e540fef2-128f-44a1-980b-2fa4f70d167b
+[I 17:20:24.236 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:26:23.702 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:28:23.892 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:36:23.683 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:38:23.705 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:40:23.709 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:50:23.698 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 17:52:24.224 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[I 18:02:24.304 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:04:04.225 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:06:06.394 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:06:06.395 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:08:05.823 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:08:05.824 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:10:05.860 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:10:05.862 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:10:52.581 NotebookApp] Kernel interrupted: e540fef2-128f-44a1-980b-2fa4f70d167b
+[I 18:12:05.862 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:12:05.863 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:14:06.340 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:14:06.343 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:16:05.882 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:16:05.885 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:18:05.909 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:18:05.909 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:20:05.938 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:20:05.941 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 18:22:06.440 NotebookApp] Saving file at /notebooks/Q_lambda_fan.ipynb
+[W 18:22:06.441 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[I 20:33:20.739 NotebookApp] Copying notebooks/Q_lambda_fan.ipynb to /notebooks
+[W 20:33:20.992 NotebookApp] Notebook notebooks/Q_lambda_fan.ipynb is not trusted
+[W 20:33:20.995 NotebookApp] Notebook notebooks/Q_lambda_fan-Copy1.ipynb is not trusted
+[W 20:33:38.953 NotebookApp] Notebook notebooks/policy_gradient_fan.ipynb is not trusted
+[I 20:33:40.015 NotebookApp] Kernel started: d5f7ba5d-159b-4d3e-9922-085ad0068039, name: conda-env-leokoz8-add_RL-py
+slurmstepd: error: *** JOB 29944932 ON node076 CANCELLED AT 2023-03-22T22:12:29 DUE TO TIME LIMIT ***

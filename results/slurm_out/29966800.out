@@ -1,0 +1,19 @@
+[I 15:57:29.343 NotebookApp] [nb_conda_kernels] enabled, 12 kernels found
+[I 15:57:29.582 NotebookApp] Authentication of /metrics is OFF, since other authentication is disabled.
+[W 15:57:31.890 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[W 2023-03-23 15:57:35.408 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-03-23 15:57:35.418 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-23 15:57:35.418 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-23 15:57:35.437 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-23 15:57:35.437 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-23 15:57:35.437 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-23 15:57:35.437 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-23 15:57:35.438 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-03-23 15:57:35.462 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[I 2023-03-23 15:57:35.464 LabApp] JupyterLab extension loaded from /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/jupyterlab
+[I 2023-03-23 15:57:35.482 LabApp] JupyterLab application directory is /om/user/leokoz8/envs/add_RL/share/jupyter/lab
+[I 15:57:35.490 NotebookApp] Serving notebooks from local directory: /rdma/vast-rdma/vast/fiete/leokoz8/code/add_RL
+[I 15:57:35.490 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 15:57:35.503 NotebookApp] http://node077:9000/
+[I 15:57:35.503 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+slurmstepd: error: *** JOB 29966800 ON node077 CANCELLED AT 2023-03-24T03:57:13 DUE TO TIME LIMIT ***
