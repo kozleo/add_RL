@@ -1,0 +1,113 @@
+[I 09:09:24.368 NotebookApp] [nb_conda_kernels] enabled, 12 kernels found
+[I 09:09:24.598 NotebookApp] Authentication of /metrics is OFF, since other authentication is disabled.
+[W 09:09:26.601 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[W 2023-03-29 09:09:30.001 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-03-29 09:09:30.006 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-29 09:09:30.006 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-29 09:09:30.006 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-29 09:09:30.006 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-29 09:09:30.006 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-29 09:09:30.006 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-03-29 09:09:30.007 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[W 2023-03-29 09:09:30.015 LabApp] Config option `kernel_spec_manager_class` not recognized by `LabApp`.
+[I 2023-03-29 09:09:30.016 LabApp] JupyterLab extension loaded from /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/jupyterlab
+[I 2023-03-29 09:09:30.017 LabApp] JupyterLab application directory is /om/user/leokoz8/envs/add_RL/share/jupyter/lab
+[I 09:09:30.022 NotebookApp] Serving notebooks from local directory: /rdma/vast-rdma/vast/fiete/leokoz8/code/add_RL
+[I 09:09:30.022 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 09:09:30.022 NotebookApp] http://node085:9000/
+[I 09:09:30.022 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 09:20:56.069 NotebookApp] 302 GET / (172.16.24.254) 1.250000ms
+/om/user/leokoz8/envs/add_RL/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 09:21:07.977 NotebookApp] Notebook notebooks/Policy Gradient Cartpole Tinker.ipynb is not trusted
+Exception in callback <TaskWakeupMethWrapper object at 0x2adb46056070>(<Future finis...late\r\n\r\n'>)
+handle: <Handle <TaskWakeupMethWrapper object at 0x2adb46056070>(<Future finis...late\r\n\r\n'>)>
+Traceback (most recent call last):
+  File "/om/user/leokoz8/envs/add_RL/lib/python3.8/asyncio/events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending name='Task-11' coro=<HTTP1ServerConnection._server_request_loop() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/http1connection.py:825> wait_for=<Future finished result=b'GET /api/co...flate\r\n\r\n'> cb=[IOLoop.add_future.<locals>.<lambda>() at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/tornado/ioloop.py:687]> while another task <Task pending name='Task-2' coro=<KernelManager._async_start_kernel() running at /om/user/leokoz8/envs/add_RL/lib/python3.8/site-packages/jupyter_client/manager.py:71>> is being executed.
+[I 09:21:08.395 NotebookApp] Kernel started: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a, name: conda-env-leokoz8-add_RL-py
+/om/user/leokoz8/envs/add_RL/lib/python3.8/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 09:23:08.584 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:25:08.517 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:25:19.691 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:25:34.468 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:25:51.299 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:27:08.295 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:27:51.677 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:29:08.293 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:30:01.917 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:31:14.766 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 09:33:08.316 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:29:08.578 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:31:08.521 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:32:15.664 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:33:08.390 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:34:41.182 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 11:35:08.428 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:35:21.404 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:36:38.097 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 11:37:08.518 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:39:08.511 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:41:08.408 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:42:14.857 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:42:37.996 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:43:08.438 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:43:08.721 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:44:13.720 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:45:08.763 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:47:08.787 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:49:08.481 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:51:08.782 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:53:08.381 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:55:08.859 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:56:20.381 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 11:57:08.779 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 11:58:11.423 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 11:59:08.777 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:01:08.890 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:05:08.783 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:07:08.855 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:29:08.503 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:29:24.607 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:30:06.967 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 12:30:09.702 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 12:30:42.578 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 12:31:08.973 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:31:30.765 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 12:32:31.816 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 12:33:08.378 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:35:08.925 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:37:08.369 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:39:08.814 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:39:27.226 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:42:00.198 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 12:42:14.799 NotebookApp] Starting buffering for 14c62fd0-9ad2-4eac-87fd-53dd1d54532a:b191a228893e4849aa4a069985ca2c92
+[I 13:26:43.422 NotebookApp] 302 GET / (172.16.24.254) 1.100000ms
+[I 13:28:04.042 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:30:52.157 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:30:53.302 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 13:32:52.164 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:34:52.163 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:36:52.171 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:38:52.156 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:40:52.185 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:42:46.989 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:42:52.168 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:43:22.634 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:43:43.761 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:43:59.217 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:44:44.364 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:44:57.675 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:45:00.806 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:46:52.216 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:48:52.186 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:50:52.781 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:52:52.803 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:54:52.791 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:56:40.921 NotebookApp] Kernel interrupted: 14c62fd0-9ad2-4eac-87fd-53dd1d54532a
+[I 13:56:52.176 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 13:58:52.813 NotebookApp] Saving file at /notebooks/Policy Gradient Cartpole Tinker.ipynb
+[I 17:54:53.105 NotebookApp] Starting buffering for 14c62fd0-9ad2-4eac-87fd-53dd1d54532a:3f502fee381f4509b48b504ed1a1f2b5
+slurmstepd: error: *** JOB 30071044 ON node085 CANCELLED AT 2023-03-29T21:09:40 DUE TO TIME LIMIT ***
